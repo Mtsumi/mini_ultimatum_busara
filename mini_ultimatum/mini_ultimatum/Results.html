@@ -1,0 +1,13 @@
+{% block title %}Results{% endblock %}
+{% block content %}
+
+    <p>Your Decision:</p>
+    <p>Amount Sent: Ksh {{ amount_sent }}</p>
+    <p>Punish Decision: {{ punish_decision }}</p>
+
+    <p>Player 1's Payout: Ksh {{ player1_payout }}</p>
+    <p>Player 2's Payout: Ksh {{ player2_payout }}</p>
+
+    {{ next_button }}
+
+{% endblock %}
